@@ -9,8 +9,176 @@
 <link rel="stylesheet" href="../User_Content/blue_theme_part_2.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <style>
-html, body, h1, h2, h3, h4, h5 {font-family: "Times", Georgia}
+html, body, h1, h2, h3, h4, h5 {font-family: "Times",}
+
+
+	body {
+		    background-color: lightblue;
+
+		}
+		.hr {
+		    width:75%;
+		    border-color: orange;
+		    margin-left:75px;
+		}
+</style>
+<style>
+* {box-sizing: border-box}
+body {font-family:  "Times"; margin:0}
+.mySlides {display: none}
+.mySlides1 {display: none}
+.mySlides2 {display: none}
+.mySlides3 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: orange;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  background-color: white;
+  color: orange;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dot1 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dot2 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.dot3 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: red;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.fade1 {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.fade2 {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.fade3 {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade1 {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade2 {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade3 {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
 </style>
 </head>
 <body class="BLACC-theme-l5">
@@ -35,12 +203,12 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Times", Georgia}
       -->
     </div>
   </div>
-  <a href="https://blaccenterprise.github.io/blacc/BLACC_Search.html" class="BLACC-bar-item BLACC-button BLACC-hide-small BLACC-right BLACC-padding-large BLACC-hover-white" title="My Account">
+  <a href="https://blaccenterprise.github.io/blacccorporation/index.html" class="BLACC-bar-item BLACC-button BLACC-hide-small BLACC-right BLACC-padding-large BLACC-hover-white" title="My Account">
     <img src="../User_Content/Profile_Man.jpg" class="BLACC-circle" style="height:23px;width:23px" alt="Logout"></a>
      <div class="BLACC-dropdown-hover BLACC-hide-small">
     <button class="BLACC-bar-item BLACC-button BLACC-hide-small BLACC-right BLACC-padding-large BLACC-hover-white" title="Stock">BC Stock</button>     
     <div class="BLACC-dropdown-content BLACC-card-4 BLACC-bar-block" style="width:300px">
-      <a href="https://blaccenterprise.github.io/blacccorporation/Stock_Price.html" class="BLACC-bar-item BLACC-button BLACC-hover-green" target="_blank">24,271</a>
+      <a href="https://blaccenterprise.github.io/blacccorporation//Stock_Price.html" class="BLACC-bar-item BLACC-button BLACC-hover-green" target="_blank">24,271</a>
       
       <!--
       <a href="./News_2.html" class="BLACC-bar-item BLACC-button">John Doe posted on your wall</a>
@@ -74,8 +242,8 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Times", Georgia}
          <p class="BLACC-center"><img src="./David_Bush_Profile_Picture.jpg" class="BLACC-circle" style="height:106px;width:106px" alt="Avatar"></p>
          <hr>
          <p><i class="fa fa-pencil fa-fw BLACC-margin-right BLACC-text-theme"></i> Vice President of Architecture, Creator</p>
-         <p><i class="fa fa-home fa-fw BLACC-margin-right BLACC-text-theme"></i> Las Vegas, NV</p>
-         <p><i class="fa fa-birthday-cake fa-fw BLACC-margin-right BLACC-text-theme"></i> May 13, 1991</p>
+         <p><i class="fa fa-home fa-fw BLACC-margin-right BLACC-text-theme"></i> Nevada</p>
+         <p><i class="fa fa-birthday-cake fa-fw BLACC-margin-right BLACC-text-theme"></i> May 13, 1931</p>
         </div>
       </div>
       <br>
@@ -185,6 +353,16 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Times", Georgia}
         <p>People are looking at your profile. Find out who.</p>
       </div>
     
+      <br>
+      
+      <!-- B.L.A.C.C. Music --> 
+      <div class="BLACC-card BLACC-round BLACC-white BLACC-hide-small" style="height: 500px;">
+        <div class="BLACC-container">
+          <p>B.L.A.C.C. Music</p>
+<iframe src="https://blaccenterprise.github.io/blacc_profile/User_Content/Profile_Music/Filter.html" frameborder="0"  height="420px" width="300px" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+      </div>
+      <br>
     <!-- End Left Column -->
     </div>
     
@@ -225,21 +403,282 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Times", Georgia}
         <p>It is important to take care of the pain itself, and it will be followed by the growth of the patient, but at the same time it will happen that there is a lot of work and pain. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it.</p>
       </div> 
       
+      <br>
+            <iframe style="margin-left:15px;" src="https://docs.google.com/spreadsheets/d/1X5jfWDS2-IjRmbUV9N8bORIrbkf7UjmePV4k-AYsezI/edit?usp=sharing" frameborder="0"  height="420px" width="650px" marginheight="0" marginwidth="0">Loading…</iframe>
+
+
+	<br>
+	<br>
+	<hr class="hr">
+	<hr class="hr">
+	<br>
+	<br>
+	
+	
+
+<div class="slideshow-container" style="width: 90%;">
+
+<div class="mySlides2 fade"> 
+<div class="BLACC-container BLACC-card BLACC-white BLACC-round BLACC-margin"><br>
+        <img src="./Stevie_W_Carpenter_Profile_Picture.jpg" alt="Avatar" class="BLACC-left BLACC-circle BLACC-margin-right" style="width:60px">
+        <h4>Stevie W. Carpenter</h4><br>
+        <hr class="BLACC-clear">
+        <p>Have you seen this?</p>
+        <img src="../User_Content/BC.jpg" style="width:10%" class="BLACC-margin-bottom">
+        <p>
+dfdgffdfgdfgdfgdgxddfgdfgdfgdfgf
+</p>
+      </div> 
+</div>
+
+<div class="mySlides2 fade"> 
+<div class="BLACC-container BLACC-card BLACC-white BLACC-round BLACC-margin"><br>
+        <img src="./Stevie_W_Carpenter_Profile_Picture.jpg" alt="Avatar" class="BLACC-left BLACC-circle BLACC-margin-right" style="width:60px">
+        <h4>Stevie W. Carpenter</h4><br>
+        <hr class="BLACC-clear">
+        <p>Have you seen this?</p>
+        <img src="../User_Content/BC.jpg" style="width:10%" class="BLACC-margin-bottom">
+        <p>
+sdfsdfsdfsfdsfsdfsdfsdfsdfsdfsdfsdfls;dlf;sldkf;lsdkf;sldkf;sdlkf;sldkf;sldkf;
+</p>
+      </div> 
+</div>
+
+<div class="mySlides2 fade"> 
+<div class="BLACC-container BLACC-card BLACC-white BLACC-round BLACC-margin"><br>
+        <img src="./Stevie_W_Carpenter_Profile_Picture.jpg" alt="Avatar" class="BLACC-left BLACC-circle BLACC-margin-right" style="width:60px">
+        <h4>Stevie W. Carpenter</h4><br>
+        <hr class="BLACC-clear">
+        <p>Have you seen this?</p>
+        <img src="../User_Content/BC.jpg" style="width:10%" class="BLACC-margin-bottom">
+        <p>It is important to take care of the pain itself, and it will be followed by the growth of the patient, but at the same time it will happen that there is a lot of work and pain. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it.</p>
+      </div> 
+</div>
+
+<a class="prev" onclick="plusSlides2(-1)">❮</a>
+<a class="next" onclick="plusSlides2(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot2" onclick="currentSlide2(1)"></span> 
+  <span class="dot2" onclick="currentSlide2(2)"></span> 
+  <span class="dot2" onclick="currentSlide2(3)"></span> 
+</div>
+
+<script>
+let slideIndex2 = 1;
+showSlides2(slideIndex2);
+
+function plusSlides2(n) {
+  showSlides2(slideIndex2 += n);
+}
+
+function currentSlide2(n) {
+  showSlides2(slideIndex2 = n);
+}
+
+function showSlides2(n) {
+  let i;
+  let slides2 = document.getElementsByClassName("mySlides2");
+  let dots2 = document.getElementsByClassName("dot2");
+  if (n > slides2.length) {slideIndex2 = 1}    
+  if (n < 1) {slideIndex2 = slides2.length}
+  for (i = 0; i < slides2.length; i++) {
+    slides2[i].style.display = "none";  
+  }
+  for (i = 0; i < dots2.length; i++) {
+    dots2[i].className = dots2[i].className.replace(" active", "");
+  }
+  slides2[slideIndex2-1].style.display = "block";  
+  dots2[slideIndex2-1].className += " active";
+}
+</script>
+
+        <!-- Automatic Slideshow Images -->
+
+	<br>
+	<br>
+	<hr class="hr">
+	<hr class="hr">
+	<br>
+	<br>
+	
+	
+
+<div class="slideshow-container" style="width: 90%;">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="../User_Content/fallen_leaf.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+<video class="BLACC-card BLACC-round BLACC-white BLACC-padding-32 BLACC-center" width="90%" style="padding-left: 20px;" controls>
+  <source src="../User_Content/Intro.mp4" type="video/mp4" autoplay>
+  <source src="../User_Content/Intro.ogg" type="video/ogg">
+  Your browser does not support HTML video.
+</video>  
+
+<br>
+<br>
+<br>
+  <div class="text"><a><button class="BLACC-theme">Watch Full Video</button></a></div>
+  </div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="../User_Content/cool_cat.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+	
     <!-- End Middle Column -->
     </div>
     
     <!-- Right Column -->
     <div class="BLACC-col m2">
-      <div class="BLACC-card BLACC-round BLACC-white BLACC-center">
+
+        
+      <div class="BLACC-card BLACC-round BLACC-theme BLACC-center" style="width:420px;">
         <div class="BLACC-container">
-          <p>BLACChole:</p>
-          <img src="../User_Content/BLACChole_Icon.png" alt="Forest" style="width:100%;">
-          <p><strong>A.S.E. Introduction</strong></p>
-          <p>Friday 15:00</p>
-          <p><a href="https://blaccenterprise.github.io/blacchole/ASE/BLACChole_ASE_Home.html" target="_blank"><button class="BLACC-button BLACC-block BLACC-theme-l4">Watch</button></a></p>
+          <p style="font-size: 24px; color: red;">BLACChole</p>
+          
+
+<div class="slideshow-container" style="width: 90%;">
+
+<div class="mySlides3 fade"> 
+<div class="BLACC-container BLACC-card BLACC-white BLACC-round BLACC-margin"><br>
+       <video class="BLACC-card BLACC-round BLACC-white BLACC-padding-32 BLACC-center" width="100%" style="padding-left: 20px;" controls>
+  <source src="../User_Content/Intro.mp4" type="video/mp4" autoplay>
+  <source src="../User_Content/Intro.ogg" type="video/ogg">
+  Your browser does not support HTML video.
+</video>  
+      </div> 
+<br>
+<br>
+<br>
+  <div class="text"><a><button class="BLACC-theme">Watch Full Video</button></a></div>
+</div>
+
+<div class="mySlides3 fade"> 
+<div class="BLACC-container BLACC-card BLACC-white BLACC-round BLACC-margin"><br>
+        <video class="BLACC-card BLACC-round BLACC-white BLACC-padding-32 BLACC-center" width="100%" style="padding-left: 20px;" controls>
+  <source src="../User_Content/Intro.mp4" type="video/mp4" autoplay>
+  <source src="../User_Content/Intro.ogg" type="video/ogg">
+  Your browser does not support HTML video.
+</video>  
+      </div> 
+<br>
+<br>
+<br>
+  <div class="text"><a>Caption Text</a></div>
+</div>
+
+<div class="mySlides3 fade"> 
+<div class="BLACC-container BLACC-card BLACC-white BLACC-round BLACC-margin"><br>
+       <video class="BLACC-card BLACC-round BLACC-white BLACC-padding-32 BLACC-center" width="100%" style="padding-left: 20px;" controls>
+  <source src="../User_Content/Intro.mp4" type="video/mp4" autoplay>
+  <source src="../User_Content/Intro.ogg" type="video/ogg">
+  Your browser does not support HTML video.
+</video>  
+</div> 
+<br>
+<br>
+<br>
+  <div class="text"><a>Caption Text</a></div>
+</div>
+
+<a class="prev" onclick="plusSlides3(-1)">❮</a>
+<a class="next" onclick="plusSlides3(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot3" onclick="currentSlide3(1)"></span> 
+  <span class="dot3" onclick="currentSlide3(2)"></span> 
+  <span class="dot3" onclick="currentSlide3(3)"></span> 
+</div>
+
+<script>
+let slideIndex3 = 1;
+showSlides3(slideIndex3);
+
+function plusSlides3(n) {
+  showSlides3(slideIndex3 += n);
+}
+
+function currentSlide3(n) {
+  showSlides3(slideIndex3 = n);
+}
+
+function showSlides3(n) {
+  let i;
+  let slides3 = document.getElementsByClassName("mySlides3");
+  let dots3 = document.getElementsByClassName("dot3");
+  if (n > slides3.length) {slideIndex3 = 1}    
+  if (n < 1) {slideIndex3 = slides3.length}
+  for (i = 0; i < slides3.length; i++) {
+    slides3[i].style.display = "none";  
+  }
+  for (i = 0; i < dots3.length; i++) {
+    dots3[i].className = dots3[i].className.replace(" active", "");
+  }
+  slides3[slideIndex3-1].style.display = "block";  
+  dots3[slideIndex3-1].className += " active";
+}
+</script>
+
         </div>
       </div>
       <br>
+      
+            <br>
       
       
       <!--
@@ -264,19 +703,96 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Times", Georgia}
       
       
       
-      <div>
-<video class="BLACC-card BLACC-round BLACC-white BLACC-padding-32 BLACC-center" width="400" style="padding-right: 100px;" controls>
-  <source src="../User_Content/Intro.mp4" type="video/mp4">
-  <source src="../User_Content/Intro.ogg" type="video/ogg">
-  Your browser does not support HTML video.
-</video>      
-</div>
-      <br>
       
       <div class="BLACC-card BLACC-round BLACC-white BLACC-padding-32 BLACC-center">
         <p><img src="../User_Content/BC.jpg" width="10%"></img>Connect Word: Zebra</p>
       </div>
       
+      <br>
+      <br>
+      
+      
+        
+      <div class="BLACC-card BLACC-round BLACC-white BLACC-center" style="width:420px; height: 500px;">
+        <div class="BLACC-container">
+            <br>
+            <br>
+            <br>            <br>
+            <br>
+
+<div class="slideshow-container" style="width: 100%;">
+
+<div class="mySlides1 fade1">
+  <div class="numbertext">1 / 3</div>
+  <img src="../User_Content/fallen_leaf.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides1 fade1">
+  <div class="numbertext">2 / 3</div>
+<video class="BLACC-card BLACC-round BLACC-white BLACC-padding-32 BLACC-center" width="100%" style="padding-left: 20px;" controls>
+  <source src="../User_Content/Intro.mp4" type="video/mp4" autoplay>
+  <source src="../User_Content/Intro.ogg" type="video/ogg">
+  Your browser does not support HTML video.
+</video>  
+
+<br>
+<br>
+<br>
+  <div class="text"><a><button class="BLACC-theme">Watch Full Video</button></a></div></div>
+
+<div class="mySlides1 fade1">
+  <div class="numbertext">3 / 3</div>
+  <img src="../User_Content/cool_cat.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev" onclick="plusSlides1(-1)">❮</a>
+<a class="next" onclick="plusSlides1(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot1" onclick="currentSlide1(1)"></span> 
+  <span class="dot1" onclick="currentSlide1(2)"></span> 
+  <span class="dot1" onclick="currentSlide1(3)"></span> 
+</div>
+
+<script>
+let slideIndex1 = 1;
+showSlides1(slideIndex1);
+
+function plusSlides1(n) {
+  showSlides1(slideIndex1 += n);
+}
+
+function currentSlide1(n) {
+  showSlides1(slideIndex1 = n);
+}
+
+function showSlides1(n) {
+  let i;
+  let slides1 = document.getElementsByClassName("mySlides1");
+  let dots1 = document.getElementsByClassName("dot1");
+  if (n > slides1.length) {slideIndex1 = 1}    
+  if (n < 1) {slideIndex1 = slides1.length}
+  for (i = 0; i < slides1.length; i++) {
+    slides1[i].style.display = "none";  
+  }
+  for (i = 0; i < dots1.length; i++) {
+    dots1[i].className = dots1[i].className.replace(" active", "");
+  }
+  slides1[slideIndex1-1].style.display = "block";  
+  dots1[slideIndex1-1].className += " active";
+}
+</script>
+
+            </div>
+      </div>
+<br>
+<br>
+
     <!-- End Right Column -->
     </div>
     
@@ -342,6 +858,119 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Times", Georgia}
 
 
  
+<script>
+// Accordion
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("BLACC-show") == -1) {
+    x.className += " BLACC-show";
+    x.previousElementSibling.className += " BLACC-theme-d1";
+  } else { 
+    x.className = x.className.replace("BLACC-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace(" BLACC-theme-d1", "");
+  }
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("BLACC-show") == -1) {
+    x.className += " BLACC-show";
+  } else { 
+    x.className = x.className.replace(" BLACC-show", "");
+  }
+}
+</script>
+<script>
+// Click on the "Jeans" link on page load to open the accordion for demo purposes
+document.getElementById("myBtn").click();
+
+
+// Open and close sidebar
+function BLACC_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function BLACC_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 19000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("BLACC-show") == -1) {
+    x.className += " BLACC-show";
+  } else { 
+    x.className = x.className.replace(" BLACC-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+ <script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex1 = 0;
+carousel1();
+
+function carousel1() {
+  var i;
+  var x = document.getElementsByClassName("mySlides1");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex1++;
+  if (myIndex1 > x.length) {myIndex1 = 1}    
+  x[myIndex1-1].style.display = "block";  
+  setTimeout(carousel1, 9000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("BLACC-show") == -1) {
+    x.className += " BLACC-show";
+  } else { 
+    x.className = x.className.replace(" BLACC-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
 <script>
 // Accordion
 function myFunction(id) {
